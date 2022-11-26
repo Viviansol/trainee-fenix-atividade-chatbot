@@ -21,9 +21,6 @@ class Product:
     def parseProduct(self) -> list:
         return [self.__name, self.__price]
 
-    def getPrice(self) -> float:
-        return self.__price
-
     @staticmethod
     def unparse(parsed_product: str):
         try:
